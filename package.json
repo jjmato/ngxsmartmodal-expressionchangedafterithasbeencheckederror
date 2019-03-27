@@ -13,7 +13,7 @@
     "core-js": "^2.6.5",
     "rxjs": "^6.4.0",
     "zone.js": "^0.8.29",
-    "ngx-smart-modal": "^7.1.0",
+    "ngx-smart-modal": "^7.1.0"
   },
   "scripts": {
     "ng": "ng",
