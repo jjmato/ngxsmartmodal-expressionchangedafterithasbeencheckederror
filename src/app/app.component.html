@@ -1,0 +1,15 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+
+<button (click)="openModal()">
+  fooModal
+</button>
+
+<ngx-smart-modal #fooModal
+                 [identifier]="'fooModal'">
+  <div *ngIf="fooModal.hasData()"
+       [innerHTML]="fooModal.getData().htmlText"></div>
+</ngx-smart-modal>
